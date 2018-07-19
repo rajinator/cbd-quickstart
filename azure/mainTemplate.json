@@ -133,8 +133,8 @@
     "vmName": "[concat(variables('scenarioPrefix'),'VM')]",
     "virtualNetworkName": "[concat(variables('scenarioPrefix'),'Vnet')]",
     "singleQuote": "'",
-    "baseUrl": "https://raw.githubusercontent.com/hortonworks/cbd-quickstart/2.7.1",
-    "fileUris": "https://raw.githubusercontent.com/hortonworks/cbd-quickstart/2.7.1/install-and-start-cbd.sh",
+    "baseUrl": "https://github.com/rajinator/cbd-quickstart/blob/test/azure_quickstart_fix",
+    "fileUris": "https://github.com/rajinator/cbd-quickstart/blob/test/azure_quickstart_fix/install-and-start-cbd.sh",
     "location": "[resourceGroup().location]"
   },
   "resources": [
